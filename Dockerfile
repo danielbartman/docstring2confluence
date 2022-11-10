@@ -7,6 +7,10 @@ RUN pip install \
   sphinxcontrib-confluencebuilder \
   recommonmark \
   m2r2
+  
+RUN apt-get update
+
+RUN apt-get install ffmpeg libsm6 libxext6  -y
 
 COPY entrypoint entrypoint
 
