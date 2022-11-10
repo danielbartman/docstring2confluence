@@ -1,5 +1,7 @@
 #!/bin/sh -l
 
+pip install --user -r requirements.txt
+
 # install requirements.txt if it exists
 cd docs
 
