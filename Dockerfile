@@ -6,7 +6,8 @@ RUN pip install \
   Sphinx \
   sphinxcontrib-confluencebuilder \
   recommonmark \
-  m2r2
+  m2r2 \
+  sphinx-autoapi
   
 RUN apt-get update
 
